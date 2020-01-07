@@ -1,0 +1,27 @@
+
+.header {
+    border: olive solid 1px;
+    background-color: chocolate;
+    width: 69%;
+    padding: 15px;
+    margin: 0px 495px;
+
+
+
+
+}
+.intros {
+    
+    border: olive solid 1px;
+}
+.buttons{
+    
+    padding: 5px;
+    padding-bottom: 10px;
+    
+
+}
+.footer{
+    color: red;
+    
+}
