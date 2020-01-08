@@ -1,32 +1,46 @@
 
 body{
     background: rgb(9, 109, 9);
+    /*background-image: url(images/Aaron-fighting.gif);*/
     position: relative;
+    margin: 0 auto;
 }
-.header {
+.container {
     border: olive solid 15px;
     border-radius: 24px;
     background-color: rgb(230, 230, 230);
     width: 69%;
     padding: 15px;
-    margin: 0px 495px;
-    
+    max-width: auto;
+    margin: auto;
+        
 }
 .intros {
     
-    border: olive solid 3px;
-    
+    border: olive solid 3px;  
 }
 .buttons{
     padding: 5px;
     padding-bottom: 10px;
-    
-    
+    width: 40%;   
 }
 .footer{
-    color: red;
+    /*color: red;
     position: absolute;
-    bottom: -10cm;
+    margin: 0 auto;
+    margin-left: 45%;
+    margin-top: 50px;*/
+
+
+    position: relative;
+    left: 0;
+    top: 50px;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(7, 71, 7);
+    color: white;
+    border: solid rgb(7, 71, 7) 5px;
+    
 }
 a.pure-button{
     
@@ -41,7 +55,7 @@ a.pure-button{
 }
 .buttons{
     position: relative;
-    left: 800px;
+    left: 70%;
     top: 7px;
     
 }
@@ -49,39 +63,51 @@ a.pure-button{
     position: relative;
     top: 40px;
     left: 210px;
+    width: 500px;    
 }
 #social {
-    width: 55px;
     position: absolute;
-    left: 1390px;
-    top: 78px;
+    width: 55px;
+    left: 50%;
+    top: 1%;
+    filter: drop-shadow(0px 0px 5px rgb(136, 136, 136));  
 }
 #instagram {
     width: 45px;
     position: absolute;
-    left: 1510px;
-    top: 78px;
+    left: 64%;
+    top: 12%;
+    /*Adds shadows, good for some pictures*/
+    filter: drop-shadow(0px 0px 5px rgb(136, 136, 136));  
 }
 #gif {
     position: absolute;
     bottom: -379px;
-    left: 5px;
+    margin-left: 41%;
+    /*Adds shadows good for gifs*/
+    box-shadow: 0px 10px 50px;
 }
 
 #drunk {
-    position: absolute;
-    right: 190px;
+    position: relative;
+    left: 80%;
     bottom: 350px;
-    width: 10%;
+    width: 15%;
     /*filter: blur(24px);*/
+    box-shadow: 0px 10px 50px;
     
 }
 #tranny {
     position: relative;
     width: 25%;
-    left: 15px;
+    right: 150px;
+    box-shadow: 0px 10px 50px;
     
 }
 h1, h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+span{
+    color: orange;
 }
