@@ -47,15 +47,20 @@ a.pure-button{
     border: 0;
     border-radius: 24px;
     border: 3px solid olive;
-    /*color: white;
-    background-color: chocolate;*/
     font-family: cursive;
     font-style: italic;
     margin: 3px;
+    font-weight: bold;
+    
 }
+a.pure-button:hover{
+
+}
+
+
 .buttons{
     position: relative;
-    left: 70%;
+    left: 63%;
     top: 7px;
     
 }
@@ -68,15 +73,15 @@ a.pure-button{
 #social {
     position: absolute;
     width: 55px;
-    left: 50%;
+    left: 66%;
     top: 1%;
     filter: drop-shadow(0px 0px 5px rgb(136, 136, 136));  
 }
 #instagram {
     width: 45px;
     position: absolute;
-    left: 64%;
-    top: 12%;
+    left: 80%;
+    top: 10%;
     /*Adds shadows, good for some pictures*/
     filter: drop-shadow(0px 0px 5px rgb(136, 136, 136));  
 }
@@ -90,8 +95,8 @@ a.pure-button{
 
 #drunk {
     position: relative;
-    left: 80%;
-    bottom: 350px;
+    left: 84%;
+    bottom: 2200px;
     width: 15%;
     /*filter: blur(24px);*/
     box-shadow: 0px 10px 50px;
@@ -100,7 +105,8 @@ a.pure-button{
 #tranny {
     position: relative;
     width: 25%;
-    right: 150px;
+    right: 15%;
+    bottom: 1900px;
     box-shadow: 0px 10px 50px;
     
 }
